@@ -7,7 +7,7 @@ var morgan = require("morgan")
 const app = express();
 
 app.use(cors({
-    origin: ['https://smart-exam-25.herokuapp.com','https://smart-exam-25-back.herokuapp.com'],
+    origin: ['https://smart-exam-25-back.herokuapp.com','https://smart-exam-25.herokuapp.com'],
     credentials: true,
 }))
 app.use(bodyParser.json())
